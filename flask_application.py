@@ -32,7 +32,7 @@ def login():
 @app.route("/table-page", methods=['GET'])
 def table():
     data_dic = {
-        'name': [100, 101, 102],
+        'name': [1001, 1011, 1021],
         'age': ['red', 'blue', "https://www.w3schools.com/"]}
     columns = ['name', 'age']
     index = ['a', 'b', 'c']
